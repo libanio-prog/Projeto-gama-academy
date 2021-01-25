@@ -1,0 +1,10 @@
+body{
+           }
+    #navbar{display: flex;
+    justify-content: space-between;
+    background-color: #9035e0;
+    }
+    a{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(0, 223, 77);
+    }
