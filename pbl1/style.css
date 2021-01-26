@@ -8,3 +8,22 @@ body{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: rgb(0, 223, 77);
     }
+
+    .destaques{  flex-wrap: wrap;
+        align-items:baseline ;
+        justify-content:space-between ;
+        background-color: orange;
+            border: black 1px solid;
+            border-radius: 5px;
+            padding: 35px;
+            font-size: 20px;
+            text-align: justify;
+    }
+   
+    #resulmo{font-style: normal;
+        text-align:left;}
+
+    #video{ display: flex;  
+        flex-direction: row-reverse;
+    
+    }
