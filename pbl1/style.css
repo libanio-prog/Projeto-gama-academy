@@ -1,5 +1,11 @@
-body{
+body{background-color: black;
            }
+
+           #conteudo{background-color: white;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 2%;/*margem interna de todos os lados*/}
+
     #navbar{display: flex;
     justify-content: space-between;
     background-color: #9035e0;
@@ -9,21 +15,25 @@ body{
         color: rgb(0, 223, 77);
     }
 
-    .destaques{  flex-wrap: wrap;
-        align-items:baseline ;
-        justify-content:space-between ;
+    .destaques{ 
+        display: flex;
+        flex-wrap: wrap;
+               
         background-color: orange;
             border: black 1px solid;
-            border-radius: 5px;
+            border-radius: 15px;
             padding: 35px;
             font-size: 20px;
             text-align: justify;
     }
-   
-    #resulmo{font-style: normal;
-        text-align:left;}
 
-    #video{ display: flex;  
-        flex-direction: row-reverse;
-    
-    }
+    #titulo2{ width: 100%;}
+   
+    #resulmo{
+        width: 50%;
+  display: flex;
+  flex-wrap: wrap}
+        
+        #video{width: 50%;
+            display: flex;
+            flex-wrap: wrap}
