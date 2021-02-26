@@ -1,5 +1,20 @@
 body
-{background-color: rgb(156, 155, 206);}
+{background-color: white;}
+
+
+#banner{
+    display: flex;
+margin: auto;
+
+}
+
+#imgbanner{position: relative;
+
+}
+
+#h{
+    position: absolute;
+}
 
 #destaque{
 margin-left: 5%;
@@ -8,31 +23,71 @@ padding: 2%;/*margem interna de todos os lados*/}
 
 #navbar{
 display: flex;
-justify-content: space-between;
-background-color: #9035e0;}
+justify-content: space-around;
+background-image: radial-gradient(circle at top right, #ff9bb4, #ff507b, #ff7a2d, #f55a00 );
+border-radius: 15px;
+margin: auto;
+}
 
 a{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: rgb(0, 223, 77);}
+color: rgb(0, 0, 0);}
 
 .container{ 
 display: flex;
 justify-content: space-between;
 padding: 100px;
-    
-background-color: orange;
-border: black 1px solid;
+margin-top: 100px;
+background-image: radial-gradient(circle at top right, #ff9bb4, #ff507b, #ff7a2d, #f55a00 );
+width: 100%;
+height: 300px;
+-webkit-transform: skewY(-1.5deg);
+-moz-transform: skewY(-1.5deg);
+-ms-transform: skewY(-1.5deg);
+-o-transform: skewY(-1.5deg);
+transform: skewY(-1.5deg);
 border-radius: 15px;
 width: 80%;
 height: 250px;}
 
+.noticiaTexto{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin-top: 100px;
+    background-image: radial-gradient(circle at top right, #ff9bb4, #ff507b, #ff7a2d, #f55a00 );
+    width: 100%;
+    height: 300px;
+    -webkit-transform: skewY(-1.5deg);
+    -moz-transform: skewY(-1.5deg);
+    -ms-transform: skewY(-1.5deg);
+    -o-transform: skewY(-1.5deg);
+    transform: skewY(-1.5deg);
+    border-radius: 15px;
+    width: 80%;
+    height: 250px;}
+
+.redes{
+    display: flex;
+    margin: auto;
+}
 .resumo{
 font-size: 25px;
+
 }
 
-#titulo2{
-color: white;
-text-align: center;}          
+.contato{display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    margin-top: 100px;
+    background-image: radial-gradient(circle at top right, #ff9bb4, #ff507b, #ff7a2d, #f55a00 );
+    width: 100%;
+    height: 300px;
+    
+    border-radius: 15px;
+    width: 80%;
+    height: 300px;}
+        
 
 #teste{
 display: flex;}
@@ -44,5 +99,26 @@ background-color: white; }
 
 #titulo2{
 width: 100%;}
-   
-   
+
+#rodape{ 
+background-image: radial-gradient(circle at top right, #f7a2a2, #ee6e6e, #f72121, #eb0000 );
+height: 300px;
+padding-top: auto;
+
+}
+#rodapetexto{
+margin: auto;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 40px;
+text-align: center;
+
+}
+#saibaMais{
+background-color: rgba(235, 23, 23, 0.425);
+border-radius: 5px;
+
+} 
+#topico{
+   font-family: 'Anton', sans-serif;
+   font-size: 20px;
+}
