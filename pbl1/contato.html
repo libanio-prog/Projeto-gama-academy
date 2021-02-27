@@ -24,8 +24,71 @@
             <div><a href="contato.html" target="_self" rel="next">CONTATO</a></div>
             <div><a href="saibamais.html" target="_self" rel="next">SAIBA MAIS</a></div>
         </div><!--div menu-->
-   
         
+        <div id="corpoformulario">
+
+            <div>
+                <h1 id="titulo">Fale conosco</h1>
+                <p id="subtitulo">complete suas informações</p>
+                <br>
+            </div>
+
+            <form action="">
+                <fieldset class="grupo">
+                    <div class="campo">
+                         <label for="Nome"><strong>Nome </strong></label>
+                        <input type="text" name="Nome" id="Nome" required>
+                    </div>
+                <div class="campo">
+                    <label for="Sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="Sobrenome" id="Sobrenome" required>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="E-mail"> <strong>E-mail</strong></label>
+                <input type="email" name="E-mail" id="E-mail" required>
+            </div>
+
+            <div class="campo">
+                <label for=""><strong>Qual seu sexo</strong> </label>
+                <label for="">
+                    <input type="radio" name="sexo" value="Masculino"> Masculinio
+                </label>
+
+                <label for="">
+                    <input type="radio" name="sexo" value="Feminino"> Feminino
+                </label>
+            </div>
+            <div class="campo">
+                <label for="Assunto"><strong>Assunto</strong></label>
+                <select name="assunto" id="">
+                    <option value="" selected disabled value=""> Escolha</option>
+                    <option value="">Dúvida</option>
+                    <option value=""> Contratos</option>
+                    <option value="">Briefing</option>
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div id="check">
+                    <label for=""><strong>Selecione uma opção</strong></label> <br> <br>
+
+                    <input type="checkbox" id="opcao1" name="opcao1" value="Primeiro Contato">
+                    <label for="opcao1">Primeiro contato</label>
+
+                    <input type="checkbox" id="opcao2" name="opcao2" value="Processo em andamento">
+                    <label for="opcao2">Processo em andamento</label>
+
+                </div>
+            </fieldset>
+            <div class="campo">
+                <br>
+                <label for=""><strong>Mensagem</strong> </label>
+                <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" style="width: 26em;"></textarea>
+            </div>
+
+            <button type="submit" class="botao">Concluído</button>
+         </form>
+        </div>
     </div> 
     <hr>
     <div id="rodape">
